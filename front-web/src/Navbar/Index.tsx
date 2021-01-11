@@ -1,8 +1,8 @@
 import './styles.css';
 import { ReactComponent as Logo } from './logo.svg';
 import { Link } from 'react-router-dom';
-
-function Navbar() {
+ 
+function NavBar() {
     return (
         <nav className="main-navbar">
             <Logo />
@@ -11,4 +11,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default NavBar;
